@@ -1393,3 +1393,8 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.gtco-contact-info ul li.instagram:before {
+  font-size: 23px;
+  content: "\f16d";
+}

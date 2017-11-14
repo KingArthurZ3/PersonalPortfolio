@@ -2,13 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Projects</title>
+    <title>Arthur &mdash; Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Arthur Zhang's personal website" />
+    <meta name="keywords" content="Arthur Zhang, student, programmer, robotics enthusiast, passionate, " />
+    <meta name="author" content="Arthur Zhang" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/people/az_logoCropped.png" />
     <!-- product grid.css -->
     <link rel="stylesheet" type="text/css" href="css/component.css"/>
     <!-- Modernizr custom JS -->
     <script src="js/modernizr.custom.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
     <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
 <nav class="gtco-nav" role="navigation">
@@ -21,15 +49,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li class="has-dropdown">
-                        <a href="#">Projects</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Web</a></li>
-                            <li><a href="#">IOS</a></li>
-                            <li><a href="#">Android</a></li>
-                            <li><a href="#">Machine Learning</a></li>
-                        </ul>
-                    </li>
+                    <li class="active"><a href="projectPage.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -57,79 +77,120 @@
     <div class="main">
         <ul id="og-grid" class="og-grid">
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/1.jpg"
-                   data-title="Azuki bean"
-                   data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="images/imagesProjectGrid/thumbs/1.jpg" alt="img01"/>
+                <a href="https://github.com/KingArthurZ3/iris_identifier" data-largesrc="images/projects/Iris_training_data.png"
+                   data-title="Iris Training Algorithm"
+                   data-description="Machine Learning algorithm for identifying Iris Flower species and returns them with a 96.6667% confidence accuracy">
+                    <img src="images/projects/thumbs/IrisCropped.jpg" alt="img01"/>
                 </a>
             </li>
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/2.jpg"
-                   data-title="Veggies sunt bona vobis"
-                   data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="images/imagesProjectGrid/thumbs/2.jpg" alt="img02"/>
+                <a href="https://github.com/ashwinnathan/ScanNShop" data-largesrc="images/projects/ScanShops.png"
+                   data-title="Scan and Shop"
+                   data-description="Designed to revolutionalize the shopping experience. Users use this app's qr code scanner to scan items to their cart and checkout mobily with apple pay">
+                    <img src="images/projects/thumbs/ScanHomeCropped.png" alt="img02"/>
                 </a>
             </li>
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/3.jpg"
-                   data-title="Dandelion horseradish"
-                   data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="images/imagesProjectGrid/thumbs/3.jpg" alt="img03"/>
+                <a href="https://github.com/KingArthurZ3/TextDetectBasic" data-largesrc="images/projects/TextDetection.PNG"
+                   data-title="Text Detection"
+                   data-description="Using Apple Core ML and vision frameworks, this IOS app identifies and highlights boxes of text in real time. Additionally, it highlights individual characters as well.">
+                    <img src="images/projects/thumbs/TextDetectionCropped.png" alt="img03"/>
                 </a>
             </li>
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/1.jpg"
-                   data-title="Azuki bean"
-                   data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="images/imagesProjectGrid/thumbs/1.jpg" alt="img01"/>
+                <a href="https://github.com/KingArthurZ3/AutoNote" data-largesrc="images/projects/AutoNote.jpg"
+                   data-title="Autonote"
+                   data-description="Made for the unattentive student. Combining JARVIS API text to speech recognition and NLP processing, this app records speech and generates notes. ">
+                    <img src="images/projects/thumbs/AutonoteCropped.jpg" alt="img01"/>
                 </a>
             </li>
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/2.jpg"
-                   data-title="Veggies sunt bona vobis"
-                   data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="images/imagesProjectGrid/thumbs/2.jpg" alt="img02"/>
+                <a href="https://github.com/KingArthurZ3/BackLinks" data-largesrc="images/projects/Backlinks.png"
+                   data-title="Backlinks"
+                   data-description="Backlinks is nonprofit organization that I founded in 2017 with three other friends. It serves as a platform for connecting underprivileged, talented youth to companies via website design contests.">
+                    <img src="images/projects/thumbs/connectBackLinksCropped.png" alt="img02"/>
                 </a>
             </li>
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/3.jpg"
-                   data-title="Dandelion horseradish"
-                   data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="images/imagesProjectGrid/thumbs/3.jpg" alt="img03"/>
+                <a href="https://github.com/KingArthurZ3/clubhub" data-largesrc="images/projects/ClubhubClubs.png"
+                   data-title="Clubhub"
+                   data-description="Clubhub is a website I created that displays information about all 156 club at Lynbrook High School. It is written with React and ES6 and uses Node to compile browser-supported Javascript.">
+                    <img src="images/projects/thumbs/ClubhubCropped.png" alt="img03"/>
                 </a>
             </li>
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/1.jpg"
-                   data-title="Azuki bean"
-                   data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="images/imagesProjectGrid/thumbs/1.jpg" alt="img01"/>
+                <a href="https://github.com/KingArthurZ3/PokeSearch" data-largesrc="images/projects/PokeSearch.png"
+                   data-title="PokeSearch"
+                   data-description="This app uses Firebase Geofire for its backend. If app users spot a pokemon at their location, they can simply press to the poke ball icon to alert other app users about the pokemon and the location that they have found it. I created it using a combination of Firebase Geofire and Apple maps.">
+                    <img src="images/projects/thumbs/PokeballCropped.jpg" alt="img01"/>
                 </a>
             </li>
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/2.jpg"
-                   data-title="Veggies sunt bona vobis"
-                   data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="images/imagesProjectGrid/thumbs/2.jpg" alt="img02"/>
+                <a href="https://github.com/KingArthurZ3/VacationHelper" data-largesrc="images/projects/VacationHelper.png"
+                   data-title="Vacation Helper"
+                   data-description="This app implement google maps, places, other cloud services to send notifications and alerts about nearby events. I created it to make planning for vacation visits easier.">
+                    <img src="images/projects/thumbs/VacationHelperCropped.png" alt="img02"/>
                 </a>
             </li>
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/3.jpg"
-                   data-title="Dandelion horseradish"
-                   data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="images/imagesProjectGrid/thumbs/3.jpg" alt="img03"/>
+                <a href="https://github.com/KingArthurZ3/Slide" data-largesrc="images/projects/Slide.png"
+                   data-title="A modern take on tetris"
+                   data-description="This was my first attempt at creating games on ios devices. It plays like the original tetris game but with revamped graphics, animations, and controls.">
+                    <img src="images/projects/thumbs/SlideCropped.jpg" alt="img03"/>
                 </a>
             </li>
             <li>
-                <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/imagesProjectGrid/1.jpg"
-                   data-title="Azuki bean"
-                   data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="images/imagesProjectGrid/thumbs/1.jpg" alt="img01"/>
+                <a href="https://github.com/KingArthurZ3/MNIST_adam" data-largesrc="images/projects/mnist.png"
+                   data-title="Hand Writing Recognition"
+                   data-description="MNIST is the hello world of machine learning. Following Tensorflow documentation, I created this machine learning model to learn how to recognize handwritten numbers with a 99.2% success rate.">
+                    <img src="images/projects/thumbs/MNISTCropped.jpg" alt="img01"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/KingArthurZ3/TCM" data-largesrc="images/projects/TCM.png"
+                   data-title="TCM Acupuncture"
+                   data-description="I created this website for my website originally to help them attract new customers when they were forced the relocate their acupuncture business. To this day, I still keep it up to date as it was the first website I created.">
+                    <img src="images/projects/thumbs/acupunctureCropped.jpg" alt="img01"/>
                 </a>
             </li>
         </ul>
     </div>
 </div><!-- /container -->
-</div>
+<footer id="gtco-footer" role="contentinfo">
+        <div class="gtco-container">
+            <div class="row">
+                <div class="col-md-4 gtco-widget">
+                    <h3>Favorite quotes</h3>
+                    <p>“There is only one real happiness in the world, and that is the happiness of creating.” -Frederick Delius</p>
+                    <p><a href="https://en.wikipedia.org/wiki/Frederick_Delius">Learn More</a></p>
+                </div>
+                <div class="col-md-2 col-md-push-1">
+                    <ul class="gtco-footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projectPage.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            <div class="row copyright">
+                <div class="col-md-12">
+                    <p class="pull-left">
+                        <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
+                    </p>
+                    <p class="pull-right">
+                    <ul class="gtco-social-icons pull-right">
+                        <li><a href="https://github.com/KingArthurZ3"><i class="icon-github"></i></a></li>
+                        <li><a href="https://www.facebook.com/arthur.zhang.338"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/arthur-k-zhang/"><i class="icon-linkedin"></i></a></li>
+                        <li><a href="https://www.flickr.com/people/158327014@N04/"><i class="icon-flickr"></i></a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+     </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/grid.js"></script>
 <script>
@@ -137,5 +198,25 @@
         Grid.init();
     });
 </script>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+</div>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- countTo -->
+<script src="js/jquery.countTo.js"></script>
+<!-- Magnific Popup -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
+
 </body>
 </html>
